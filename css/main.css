@@ -344,8 +344,13 @@ header {
     z-index: 9000;
     text-align: center;
 }
-.lo {
+.lodjo {
     width: 180px;
+}
+@media all and (max-width: 800px) {
+    .lodjo {
+        width: 80px;
+    }
 }
 #logo {
     position: fixed;
@@ -3791,11 +3796,28 @@ figure.effect-chico:hover p {
 html {
     font-size: 62.5%;
 }
+::-webkit-scrollbar {
+    width: 0;
+    background: 0 0;
+    z-index: -30;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+    z-index: -30;
+}
+body::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgb(0, 0, 0), #3a2403 100%);
+    z-index: -30;
+}
+body::-webkit-scrollbar-thumb {
+    background: 0 0;
+    box-shadow: 0 0 0 100000vh #000;
+}
 body {
     color: #fff;
     font-family: "Roboto Condensed", sans-serif;
     overflow-x: hidden;
-    background: #2f2f31 url("/image/menuiserie4.jpg") no-repeat 0 0/100%;
+    background: #2f2f31 url("/image/wood2.jpg") repeat 0 0/100%;
 }
 .cycle-slideshow,
 .cycle-slide,
