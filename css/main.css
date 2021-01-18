@@ -344,8 +344,12 @@ header {
     z-index: 9000;
     text-align: center;
 }
+.lo {
+    width: 180px;
+}
 #logo {
     position: fixed;
+    width: 100px;
     left: 50px;
     top: 40px;
     z-index: 99000;
@@ -3791,7 +3795,7 @@ body {
     color: #fff;
     font-family: "Roboto Condensed", sans-serif;
     overflow-x: hidden;
-    background: #2f2f31 url("/images/bg_gen.jpg") no-repeat 0 0/100%;
+    background: #2f2f31 url("/image/menuiserie4.jpg") no-repeat 0 0/100%;
 }
 .cycle-slideshow,
 .cycle-slide,
