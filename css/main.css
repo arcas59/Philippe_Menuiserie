@@ -15,6 +15,53 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+body {
+    -webkit-animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -ms-animation: fadein 4s;
+    -o-animation: fadein 4s;
+    animation: fadein 4s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 article,
 aside,
 details,
@@ -3817,7 +3864,7 @@ body {
     color: #fff;
     font-family: "Roboto Condensed", sans-serif;
     overflow-x: hidden;
-    background: #2f2f31 url("/image/wood2.jpg") repeat 0 0/100%;
+    background: #000000 url("/image/wood2.jpg") repeat 0 0/100%;
 }
 .cycle-slideshow,
 .cycle-slide,
