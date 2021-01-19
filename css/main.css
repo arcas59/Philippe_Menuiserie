@@ -4055,6 +4055,29 @@ main > aside .filter a {
     align-items: flex-start;
     flex-wrap: wrap;
 }
+#flexo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.largeur {
+    width: 60%;
+}
+.profilphoto {
+    width: 300px;
+    margin-right: 50px;
+}
+@media all and (max-width: 800px) {
+    .profilphoto {
+        width: 200px;
+        margin-right: 0px;
+    }
+    .largeur {
+        width: 100%;
+    }
+}
 .projets {
     text-align: center;
 }
