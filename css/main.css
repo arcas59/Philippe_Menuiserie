@@ -329,6 +329,9 @@ th {
     transform: translate(0, 120%);
     transition: all 0.5s;
 }
+.colorh {
+    color: white;
+}
 #cnil p {
     font-size: 1.4rem;
     color: #fff;
@@ -4046,11 +4049,22 @@ main > aside .filter a {
 .tac_activate {
     padding: 0 5px;
 }
+#flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.projets {
+    text-align: center;
+}
 .projets figure {
     position: relative;
     width: 32%;
     margin: 0;
-    opacity: 0.5;
+    opacity: 0.75;
+    transition: transform .2s; /* Animation */
+    margin-top: 20px;
 }
 .projets figure img {
     width: 100%;
