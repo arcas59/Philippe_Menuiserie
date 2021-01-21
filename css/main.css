@@ -368,7 +368,7 @@ th {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: -100px;
+    right: 30px;
     text-align: center;
     color: #fff;
     z-index: 10000;

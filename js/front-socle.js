@@ -22,9 +22,9 @@ $(function()
 			$('header').removeClass("fixed");
 
 		// gestion du bouton ontop
-		if ($(this).scrollTop()>=dheight*.75  && !$('.ontop').hasClass("ontop_showed")  && dheight>0)
+		if ($(this).scrollTop()>=dheight*.10  && !$('.ontop').hasClass("ontop_showed")  && dheight>0)
 			$('.ontop').addClass("ontop_showed");
-		else if ($(this).scrollTop()<dheight*.75  && $('.ontop').hasClass("ontop_showed"))
+		else if ($(this).scrollTop()<dheight*.10  && $('.ontop').hasClass("ontop_showed"))
 			$('.ontop').removeClass("ontop_showed");
 
 		});
