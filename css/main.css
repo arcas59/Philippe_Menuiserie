@@ -368,13 +368,15 @@ th {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: -100px;
     text-align: center;
     color: #fff;
     z-index: 10000;
     margin: 0;
     padding: 0;
+    height: ;
 }
+
 .ontop i {
     font-size: 2.5rem;
 }
