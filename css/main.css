@@ -4132,6 +4132,14 @@ main > aside .filter a {
 .projets .grid figure:hover figcaption {
     opacity: 1;
 }
+@media all and (max-width: 640px) {
+    .projets .grid figcaption {
+        opacity: 1;
+    }
+    .projets .grid figcaption p {
+        font-size: 1.7rem;
+    }
+}
 .projets .grid figure a span {
     position: absolute;
     bottom: 20px;
