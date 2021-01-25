@@ -592,6 +592,9 @@ footer {
     position: relative;
     transition: all 0.5s;
 }
+footer {
+    position: absolute;
+}
 .deploy_h header,
 .deploy_h main,
 .deploy_h footer,
@@ -4488,7 +4491,6 @@ footer {
 }
 footer > div {
     padding: 0 10px;
-    margin: 30px 0;
 }
 footer li,
 footer a,
@@ -4645,4 +4647,9 @@ footer .colibri a {
         margin: 0 0 10px;
     }
 }
-/*# sourceMappingURL=main.css.map */
+footer .copy {
+    width: 100%;
+    color: #ffffff;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
