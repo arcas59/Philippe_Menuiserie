@@ -119,11 +119,10 @@
                 </div>
                 <div class="slide cycle-slide cycle-slide-active" data-caption="Venez découvrir le véritable artisanat. Mon engagement, votre satisfaction d'un travail unique et sur-mesure" style="position: absolute; top: 0px; left: 0px; z-index: 99; visibility: visible; opacity: 1; display: block;">
 					<img src="./image/menuiserie44.jpg" alt="" style="position: absolute; top: -99px; left: 0px; width: 1536px; height: 864px;">
-				</div>
+				</div>>
 			</div>
 		</main>
-		<footer>
-		</footer>
+		<footer role="contentinfo"></footer>
 		<script type="text/javascript" src="./js/tarteaucitron.js" async></script>
 		<script type="text/javascript" async>
 			    var tarteaucitronForceLanguage = 'fr';
@@ -135,11 +134,11 @@
 			};
 			    (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
 		</script>
-		<script type="text/javascript" src="./js/jquery.min.js" async></script>
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
 		<script type="text/javascript" src="./js/jquery-migrate.min.js" async></script>
 		<script type="text/javascript" src="./js/validationEngine.js" async></script>
 		<script type="text/javascript" src="./js/jquery.validationEngine-fr.js" async></script>
-		<script type="text/javascript" src="./js/jquery.cycle2.min.js" async></script>
+		<script type="text/javascript" src="./js/jquery.cycle2.min.js"></script>
 		<script type="text/javascript" src="./js/colibri-antispam.js" async></script>
 		<script type="text/javascript" src="./js/jquery.imagefit.js" async></script>
 		<script type="text/javascript" src="./js/nivo-lightbox.min-fr.js" async></script>
@@ -147,21 +146,11 @@
 		<script type="text/javascript" src="./js/isotope.pkgd.min.js" async></script>
 		<script type="text/javascript" src="./js/front-socle.js" async></script>
 		<script type="text/javascript" async>
-			    function fitting() {
-				 $('#home_slider').imagefit();
-				 
-			}
-			    $(function()        {
-				        $(window).load(function() {
-					fitting();
-					 $(window).resize(function(){
-						 fitting();
-						 
-					});
-					 
+			function fitting() { $('#home_slider').imagefit(); }
+			$(function()
+				{
+				$(window).load(function() {fitting(); $(window).resize(function(){ fitting(); }); });
 				});
-				        
-			});
 		</script>
 	</body>
 </html>

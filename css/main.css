@@ -1874,7 +1874,6 @@ nav.details_boat .tabs_nav a {
 }
 @media all and (max-width: 800px) {
     #home_slider {
-        
         min-height: -webkit-fill-available;
     }
 }
